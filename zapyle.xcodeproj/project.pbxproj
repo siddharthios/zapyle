@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		35308FA320B02EA300D61E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35308FA220B02EA300D61E7D /* AppDelegate.swift */; };
-		35308FA520B02EA300D61E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35308FA420B02EA300D61E7D /* ViewController.swift */; };
 		35308FA820B02EA300D61E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35308FA620B02EA300D61E7D /* Main.storyboard */; };
 		35308FAA20B02EA300D61E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35308FA920B02EA300D61E7D /* Assets.xcassets */; };
 		35308FAD20B02EA300D61E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35308FAB20B02EA300D61E7D /* LaunchScreen.storyboard */; };
+		35308FB520B0317B00D61E7D /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35308FB420B0317B00D61E7D /* GridCell.swift */; };
+		35308FBD20B034F600D61E7D /* ProductDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35308FBC20B034F600D61E7D /* ProductDataModel.swift */; };
+		3540219820B03FF50024E26C /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540219720B03FF50024E26C /* GridLayout.swift */; };
+		3540219C20B06F2E0024E26C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540219B20B06F2E0024E26C /* ViewController.swift */; };
+		6CA2F633E3C1505546FA87C8 /* Pods_zapyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F6ADFC04852AFFACB6C1AB /* Pods_zapyle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190F754B5276613BD31CB83E /* Pods-zapyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zapyle.release.xcconfig"; path = "Pods/Target Support Files/Pods-zapyle/Pods-zapyle.release.xcconfig"; sourceTree = "<group>"; };
+		20F6ADFC04852AFFACB6C1AB /* Pods_zapyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zapyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35308F9F20B02EA300D61E7D /* zapyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zapyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35308FA220B02EA300D61E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35308FA420B02EA300D61E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35308FA720B02EA300D61E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35308FA920B02EA300D61E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35308FAC20B02EA300D61E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35308FAE20B02EA300D61E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35308FB420B0317B00D61E7D /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		35308FBC20B034F600D61E7D /* ProductDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDataModel.swift; sourceTree = "<group>"; };
+		3540219720B03FF50024E26C /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		3540219B20B06F2E0024E26C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4F8ABE6639C93CBC2E1321B /* Pods-zapyle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zapyle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zapyle/Pods-zapyle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA2F633E3C1505546FA87C8 /* Pods_zapyle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C5B6AB96B23FA047435A4F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20F6ADFC04852AFFACB6C1AB /* Pods_zapyle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		35308F9620B02EA300D61E7D = {
 			isa = PBXGroup;
 			children = (
 				35308FA120B02EA300D61E7D /* zapyle */,
 				35308FA020B02EA300D61E7D /* Products */,
+				CF1AD15690DD309A3625C8D7 /* Pods */,
+				0C5B6AB96B23FA047435A4F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +76,49 @@
 			isa = PBXGroup;
 			children = (
 				35308FA220B02EA300D61E7D /* AppDelegate.swift */,
-				35308FA420B02EA300D61E7D /* ViewController.swift */,
+				3540219D20B06F450024E26C /* Controller */,
+				3540219620B03F710024E26C /* Model */,
+				35308FBE20B03ABC00D61E7D /* View */,
 				35308FA620B02EA300D61E7D /* Main.storyboard */,
 				35308FA920B02EA300D61E7D /* Assets.xcassets */,
 				35308FAB20B02EA300D61E7D /* LaunchScreen.storyboard */,
 				35308FAE20B02EA300D61E7D /* Info.plist */,
 			);
 			path = zapyle;
+			sourceTree = "<group>";
+		};
+		35308FBE20B03ABC00D61E7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35308FB420B0317B00D61E7D /* GridCell.swift */,
+				3540219720B03FF50024E26C /* GridLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3540219620B03F710024E26C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35308FBC20B034F600D61E7D /* ProductDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3540219D20B06F450024E26C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3540219B20B06F2E0024E26C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF1AD15690DD309A3625C8D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4F8ABE6639C93CBC2E1321B /* Pods-zapyle.debug.xcconfig */,
+				190F754B5276613BD31CB83E /* Pods-zapyle.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35308FB120B02EA300D61E7D /* Build configuration list for PBXNativeTarget "zapyle" */;
 			buildPhases = (
+				61C4109FAF778B2BC3C1B594 /* [CP] Check Pods Manifest.lock */,
 				35308F9B20B02EA300D61E7D /* Sources */,
 				35308F9C20B02EA300D61E7D /* Frameworks */,
 				35308F9D20B02EA300D61E7D /* Resources */,
+				D52F90053D03B52DE1E10897 /* [CP] Embed Pods Frameworks */,
+				9258D7D5EC4BFB3C61BFA8A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +191,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61C4109FAF778B2BC3C1B594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zapyle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9258D7D5EC4BFB3C61BFA8A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zapyle/Pods-zapyle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52F90053D03B52DE1E10897 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zapyle/Pods-zapyle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zapyle/Pods-zapyle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35308F9B20B02EA300D61E7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35308FA520B02EA300D61E7D /* ViewController.swift in Sources */,
+				3540219C20B06F2E0024E26C /* ViewController.swift in Sources */,
+				35308FBD20B034F600D61E7D /* ProductDataModel.swift in Sources */,
+				3540219820B03FF50024E26C /* GridLayout.swift in Sources */,
 				35308FA320B02EA300D61E7D /* AppDelegate.swift in Sources */,
+				35308FB520B0317B00D61E7D /* GridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +391,13 @@
 		};
 		35308FB220B02EA300D61E7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F8ABE6639C93CBC2E1321B /* Pods-zapyle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F65GNDYW8;
 				INFOPLIST_FILE = zapyle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = siddharth.kumar.zapyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +408,13 @@
 		};
 		35308FB320B02EA300D61E7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190F754B5276613BD31CB83E /* Pods-zapyle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F65GNDYW8;
 				INFOPLIST_FILE = zapyle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = siddharth.kumar.zapyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
